@@ -1,0 +1,58 @@
+/* Réinitialisation du CSS */
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+     /* Arrière-plan de l'élément body */
+    background-image: url(./images/beach-g3b9073336_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Couleur du texte */
+    color: black;
+}
+
+.swiper
+{
+    /* Largeur de 100% */
+    width: 100%;
+    /* Espacement en haut et en bas de 50 pixels */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide
+{
+    /* Position de l'arrière-plan au centre */
+    background-position: center;
+    /* Largeur de 300 pixels */
+    width: 300px;
+    /* Hauteur automatique */
+    height: auto;
+     /* Ombre portée de 6 pixels vers le bas et la droite, couleur noire */
+    box-shadow: 6px 6PX 10px black;
+    /* Arrière-plan blanc */
+    background: white;
+}
+
+.swiper-slide img
+{
+    /* Affichage en tant que bloc */
+   display: block;
+   /* Largeur de 100% */
+   width: 100%;
+   /* Hauteur de 250 pixels */
+   height: 250px;
+
+
+}
+
+/* Alignement central du texte */
+.center
+{
+    text-align: center;
+}
